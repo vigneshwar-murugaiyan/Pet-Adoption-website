@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Use for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link To CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link To JS -->
+    <script src="index.js" defer></script>
+    <!-- For Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link For Gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Link For Gsap - Scroll Trigger -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Link For Lenis - Smooth Scrolling -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <!-- Link For Split Type -->
+    <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+
+    <title>VH | Pet Adoption</title>
+  </head>
+  <body>
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Voiceless <b class="accent">Hub</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="index.html#pets">Pets</a>
+            <a href="index.html#requirements">Requirements</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#stories">Stories</a>
+        </div>
+        <button class="btn-2" onclick="window.location.href='contact.html'">
+            <p>Contact Us</p>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+        </button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+
+   <!-- hero page -->
+    <section class="heropage">
+      <div class ="hero-headlines">
+        <h1>Find Your Pet Today!!</h1>
+        <p>
+          Discover Your Perfect Companion in Our Selection of Loving Pets
+          Available for Adoption.
+        </p>
+        <div class="hero-headlines-button">
+          <button class="btn-3">Our Pets</button>
+          <button class="btn-3 btn-transparent">Contact Us</button>
+        </div>
+      </div>
+      <div class="hero-images">
+        <img src="Img/bum.jfif" alt="img" />
+        <img src="Img/bum.jfif" alt="img" />
+        <img src="Img/bum.jfif" alt="img" />
+      </div>
+    </section>
+<!-- our process for adoption page -->
+   <section class="requirements" id="requirements">
+     <div class="requirements-headlines">
+      <h1>Our Process For adoption</h1>
+      <p>Our process is simple and filled with joy every step of the way:</p>
+     
+      <div class="r-item-container">
+        
+        <!-- item 1 -->
+        <div class="r-item">
+          <div class="r-logo" style="background-color: #b9ff46;">
+            <i class="fa-regular fa-newspaper"></i>
+          </div>
+          <h5>Submitting an application</h5>
+        </div>
+        
+        <!-- item 2 -->
+        <div class="r-item">
+          <div class="r-logo" style="background-color: #dfee10;">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h5>Attending an online interview</h5>
+        </div>
+         
+        <!--item 3  -->
+        <div class="r-item">
+          <div class="r-logo" style="background-color: #ff6246;">
+            <i class="fa-solid fa-paw"></i>
+          </div>
+          <h5>Meeting the pet in person</h5>
+        </div>
+       
+        <!-- item 4 -->
+        <div class="r-item">
+          <div class="r-logo" style="background-color: #469cff;">
+            <i class="fa-regular fa-file-zipper"></i>
+          </div>
+          <h5>Signing an adoption agreements</h5>
+        </div>
+
+        <!-- item 5 -->
+        <div class="r-item">
+          <div class="r-logo" style="background-color: #d446ff;">
+            <i class="fa-solid fa-handshake"></i>
+          </div>
+          <h5>Congratulations on findind a match!</h5>
+        </div>
+      </div>
+    </div>
+
+    <img src="Img/brasam.jfif" alt="img">
+
+     
+   </section>
+
+   <!-- PETS PAGE -->
+    <section class="pets" id="pets">
+      <div class="pets-headlines">
+        <i class="fa-solid fa-paw"></i>
+        <h1>Meet Your Pets</h1>
+      </div> 
+
+      <div class="pets-collection">
+        <div class="pet-item">
+          <img src="Img/jaddu.jfif" alt="img"/>
+          <h3>Mottu</h3>
+        </div>
+ 
+        <div class="pet-item">
+          <img src="Img/jaddu.jfif" alt="img"/>
+          <h3>chottu</h3>
+        </div>
+   
+      
+     
+        <div class="pet-item">
+          <img src="Img/jaddu.jfif" alt="img"/>
+          <h3>buttu</h3>
+        </div>
+      </div> 
+
+      <button class="btn-3 btn-pets">
+        <p>Find More</p>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+    </section>
+
+    <!-- about us section -->
+     <div class="about" id="about">
+      <div class="about-headlines">
+        <h1>About Us</h1>
+        <p class="revel-type"  data-bg-color="#cccccc" data-fg-color="black">
+        Voiceless Hub is not just a
+        <b>pet adoption website </b>; it's a haven for both pets in search of their forever
+        homes and compassionate individuals ready to welcome them with open arms.</p>
+
+      
+      <div class="about-info">
+        <div class="about-info-item">
+          <h5>N+</h5>
+          <h6>Saved Pets</h6>
+        </div>
+        <hr class="about-info-divider" />
+        <div class="about-info-item">
+          <h5>100%</h5>
+          <h6>Adoption Rate</h6>
+        </div>
+        <hr class="about-info-divider" />
+        <div class="about-info-item">
+          <h5>5 Star</h5>
+          <h6>Community Loved</h6>
+        </div>
+        
+      </div>
+      <button class="btn-3">Get Started</button>
+     </div>
+     <img src="Img/msd.jfif" alt="img">
+   </div>
+
+   <!-- review section -->
+    <div class="testimonials" id="stories">
+      <h6>OUR REVIEWS</h6>
+      <h1>What People Say</h1>
+
+      <div class="testimony-container">
+
+        <!-- test t1 -->
+         <div class="testimony-item">
+          <div class="testimony-people">
+            <div class="testimony-name">
+              <img src="Img/brasam.jfif" alt="img" />
+              <div class="testimony-name-item">
+                <h4>Jhon Praneeth </h4>
+                <p> Atlas's Owner</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-quote-right"></i>
+          </div>
+          <p class="testimony-text">
+            It Contains Responsive Navbar, Home Section,  About Section, Requirements
+            Section, Pets Section, Testimonials Section and a Responsive Footer
+          </p>
+         </div>
+
+         <!-- test t2 -->
+         <div class="testimony-item">
+          <div class="testimony-people">
+            <div class="testimony-name">
+              <img src="Img/brasam.jfif" alt="img" />
+              <div class="testimony-name-item">
+                <h4>sree sabari </h4>
+                <p> Atlas's Owner</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-quote-right"></i>
+          </div>
+          <p class="testimony-text">
+            It Contains Responsive Navbar, Home Section,  About Section, Requirements
+            Section, Pets Section, Testimonials Section and a Responsive Footer
+          </p>
+         </div>
+
+         <!-- test t3 -->
+         <div class="testimony-item">
+          <div class="testimony-people">
+            <div class="testimony-name">
+              <img src="Img/brasam.jfif" alt="img" />
+              <div class="testimony-name-item">
+                <h4>Vikas khan </h4>
+                <p> Atlas's Owner</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-quote-right"></i>
+          </div>
+          <p class="testimony-text">
+            It Contains Responsive Navbar, Home Section,  About Section, Requirements
+            Section, Pets Section, Testimonials Section and a Responsive Footer
+          </p>
+         </div>
+
+      
+
+      </div>
+    </div>
+  </body>
+</html>
